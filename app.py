@@ -9,3 +9,5 @@ def get_order(request):
     query = "SELECT * FROM orders WHERE uid = " + str(uid)
     cursor = DB.execute(query)
     return cursor.fetchall()
+
+# REVAL: second commit pushed while allowance window under observation (auto-review event probe)
