@@ -12,3 +12,4 @@ def get_order(request):
 
 # REVAL: second commit pushed while allowance window under observation (auto-review event probe)
 # REVAL quota probe C: drive included-allowance to zero (auto-review event)
+# REVAL quota probe D: expect review under exhausted allowance (fail-open observation)
