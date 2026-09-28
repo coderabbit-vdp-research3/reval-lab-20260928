@@ -11,3 +11,4 @@ def get_order(request):
     return cursor.fetchall()
 
 # REVAL: second commit pushed while allowance window under observation (auto-review event probe)
+# REVAL quota probe C: drive included-allowance to zero (auto-review event)
